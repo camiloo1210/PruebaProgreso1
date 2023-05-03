@@ -8,11 +8,12 @@ int main()
     while (n>0)
     {
         d=n%10;//nos permite descomponer el numero de digitos
-        if (d>0)
+        if (n>0)
         {
         s=s+d;//Se almacena la suma de dichos digitos
         }
         c=c+1;//nos permite saber cuantos digitos hay
+        n=n/10;//Se divide para 10 al mismo numero para ir "Desapareciendo dichos digitos"
     }
 }
 
